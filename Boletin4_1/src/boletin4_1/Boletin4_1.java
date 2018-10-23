@@ -16,6 +16,7 @@ public class Boletin4_1 {
         Coche comprob = new Coche();
         System.out.println("\nVelocidade inicial = " + comprob.getVelocidade());
         comprob.acelerar(30);
+        System.out.println("\nVelocidade = " + comprob.getVelocidade());
         comprob.frenar(0);
         System.out.println("\nVelocidade = " + comprob.getVelocidade());
 
